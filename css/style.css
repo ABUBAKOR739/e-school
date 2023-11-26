@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@400;500;700&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@400;500;700&family=Roboto&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+
+/* common start */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+/* common end */
+/* header start */
+header {
+    background-color: hsl(120, 60%, 89%);
+    padding: 15px;
+}
+
+.c_nav {}
+
+.logo {
+    margin: 0px;
+}
+
+.menu ul li a {
+    padding: 0 24px !important;
+    color: #000 !important;
+}
+
+.menu ul li a:hover {
+    color: #FD511A !important;
+}
+
+/* header end */
+/* button start */
+.btn_c {
+    background-color: #21B573 !important;
+    border-radius: 33px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.btn_sign {
+    padding: 12px 28px;
+    margin-left: 10px;
+}
+
+.btn_c:hover,
+.btn_c:active {
+    background-color: #FD511A !important;
+    color: white !important;
+}
+
+/* button end */
+/* banar start */
+.container {}
+
+.bannar {
+    background-color: hsl(120, 60%, 89%);
+    padding-bottom: 65px;
+}
+
+.b-text {
+    width: 100%;
+}
+
+.bp1 {
+    color: #FD511A;
+}
+
+.bh1 {
+    margin: 10px 0 20px;
+    padding: 0 107px 0 0;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.bh1 span {
+    color: #21B573;
+}
+
+.bp2 {
+    line-height: 32px;
+}
+
+.b-btn {
+    padding: 12px 36px;
+    margin-top: 15px;
+}
+
+.b-img {
+    width: 100%;
+}
+
+.b-img img {
+    width: 100%;
+}
+
+/* banar end */
+/* feature start */
+.feature {}
+
+.p-c {
+   padding-bottom: 100px;
+}
+
+.s-feature {
+    height: 315px;
+    margin: 50px 0 0;
+    padding: 55px 0 50px;
+    background-color: hsl(120, 60%, 89%);
+    border-radius: 10px;
+    transition: .33s linear;
+}
+
+.s-feature:hover {
+    background: #f2eaea;
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.s-img {
+    width: 80px;
+    height: 83px;
+}
+
+.s-img img {}
+
+.s-h2 {
+    margin: 20px 0 0;
+}
+
+.s-p {}
+
+/* feature end */
+/* courses start */
+.courses {}
+ 
+.c-title { margin-bottom: 50px;}
+
+.c-h1 {
+    font-size: 36px;
+font-weight: 700;
+}
+/* Testimonial start */
+.t-h1 {
+    font-size: 36px;
+font-weight: 700;
+}
+.sc-courses{border-radius: 18px; 
+    background-color: #FFFFFF;
+    list-style: none;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);}
+.btn_courses {
+     margin: 20px 5px 35px;
+     padding: 8px 28px;}
+.sc-img{}
+.sc-img img{}
+.sc-h2{margin: 20px 5px 5px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;}
+.sc-p{margin: 0 5px;}
+.btn_sc{ }
+
+
+.sc-footer, li{list-style: none; padding: 10px;}
+.sc-left{float: left;}
+.sc-right{float: right;}
+.sc-left ul li{float: left;}
+.sc-left ul li img{}
+.sc-left ul li span{padding-right: 10px;}
+
+/* courses ene */ 
+/* testimonial start */
+.t-h1{margin-bottom: 50px;}
+.t-item{padding: 65px 0 0;
+}
+.t-img img{float: right;}
+.ftr{float: right;}
+.footer{text-align: center;}
+.footer-end{text-align: center;padding-top: 20px;}
+/* testimonial end */div class="row align-items-center">
+                    <div class="col-lg-3">
+                    <div class="t-img">
+                      <img src="image/Ellipse-5.png" class="w-100" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-9">
+                    <div class="t-text">
+                      <p class="t-p mb-0">There are many variations of passages of Lorem Ipsum available, but the
+                        majority have suffered alteration in some form, by injected humour,
+                        or randomised words which don't look even slightly believable.</p>
+                    </div>
+                  </div>
+                </div>
